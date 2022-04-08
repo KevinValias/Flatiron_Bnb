@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/host_pricing.css" />
+    <title>KV Concierge</title>
+  </head>
+  <body>
+    <header class="showcase">
+      <div id="navbar" class="navbar">
+        <img src="./img/Flatiron.png" alt="" class="logo" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <div class="dropdown">
+              <li><a>Hosts</a></li>
+              <div class="dropdown-content">
+                <a href="host_services.html">Services</a>
+                <a href="host_pricing.html">Pricing</a>
+                <!-- Leaving space for added links -->
+                <!-- <a href="#">Link 3</a> -->
+              </div>
+            </div>
+            <!-- Guest Drop down blocked until credible insurance can be found-->
+            <div class="dropdown">
+              <li><a>Guests</a></li>
+              <div class="dropdown-content">
+                <a href="guest_insurance.html">Travel Insurance</a>
+              </div>
+            </div>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- <li><a href="index.html">Join Our Team</a></li> -->
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+        <h1>Pricing</h1>
+      </div>
+    </header>
+    <div class="section-break-1"></div>
+
+    <main>
+      <div class="main-service-container">
+        <div class="links">
+          <span data="one">Property Management</span>
+          <span data="two">Cleaning</span>
+          <span data="three">Linen Service</span>
+          <span data="four">Consulting</span>
+          <span data="five">Professional Photography</span>
+        </div>
+        <div class="wrap-text">
+          <div class="text" id="one">
+            <p>
+              We offer professional, full-service listing management services at
+              25% of the nightly rental rate. Visit our Services page for more
+              info on what is included in our management rate. We manage 100% of
+              your short term rental business for a 25% share of revenue.
+            </p>
+          </div>
+          <div class="text" id="two">
+            <p>
+              Cleaning fees are collected directly from the guest and the
+              service is provided to the client at no additional cost.
+            </p>
+          </div>
+          <div class="text" id="three">
+            <p>
+              Linen service is included in the cleaning fee paid by the guest
+              and is offered at no additional charge to the owner.
+            </p>
+          </div>
+          <div class="text" id="four">
+            <p>
+              Our consulting services will save you time, money, and headache
+              from costly mistakes caused by inexperience. Our hourly rates
+              start at $100/hour and are tailored precisely to fit your needs.
+            </p>
+          </div>
+          <div class="text" id="five">
+            <p>
+              We provide professional photography for a flat rate $150 for most
+              homes. Unlike photos provided by Airbnb, our professional photos
+              may be used across any platform including VRBO, Booking.com, and
+              the MLS if you ever go to sell your home.
+            </p>
+          </div>
+        </div>
+        <div class="btn-flex">
+          <a href="contact.html" class="btn">Schedule Now</a>
+        </div>
+      </div>
+    </main>
+    <div class="section-break-1"></div>
+
+    <!-- Jquery CDN To Enable Services -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script To Enable Services -->
+    <script>
+      $(".text").hide();
+      $(".text").first().show();
+      $("span").first().addClass("active");
+      $("span").click(function () {
+        link = $(this).attr("data");
+        $("#" + link).fadeIn(700);
+        $("#" + link)
+          .siblings("div")
+          .hide();
+        $(this).addClass("active");
+        $(this).siblings("span").removeClass("active");
+      });
+    </script>
+  </body>
+</html>
