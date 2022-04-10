@@ -1,3 +1,8 @@
+/* Text primary */
+.text-primary {
+  color: rgb(59, 131, 179);
+}
+
 /* DropDown Nav Style */
 .dropdown {
   position: relative;
@@ -30,10 +35,7 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/* Text */
-.text-primary {
-  /* color to be determined */
-}
+
 /* Video Gallery */
 .container {
   padding: 80px 50px 50px 50px;
@@ -71,7 +73,7 @@ video {
   display: inline-block;
   cursor: pointer;
   font-size: 18px;
-  background-color: black;
+  background-color: rgb(59, 131, 179);
   color: #fff;
   padding: 10px 30px;
   border-radius: 5px;

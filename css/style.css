@@ -57,7 +57,7 @@ h1 {
 
 .navbar a:hover {
   color: black;
-  border-bottom: black 1px solid;
+  border-bottom: rgb(59, 131, 179) 1px solid;
 }
 .navbar ul {
   display: flex;
@@ -113,7 +113,7 @@ h1 {
 .section-break-1 {
   background-color: transparent;
   border: 0;
-  border-top: black 3px double;
+  border-top: rgb(59, 131, 179) 3px double;
   height: 3px;
   margin: 4rem auto;
   width: 60%;

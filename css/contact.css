@@ -95,6 +95,14 @@ h2 p {
 .showcase * {
   z-index: 10;
 }
+.section-break-1 {
+  background-color: transparent;
+  border: 0;
+  border-top: rgb(59, 131, 179) 3px double;
+  height: 3px;
+  margin: 4rem auto;
+  width: 60%;
+}
 /* About Location */
 .flex-items {
   display: flex;
@@ -295,7 +303,7 @@ textarea {
   color: #474544;
   cursor: pointer;
   display: inline-block;
-  font-family: "Helvetica", Arial, sans-serif;
+  font-family: "QuicyCF-Black";
   font-size: 0.875em;
   font-weight: bold;
   outline: none;
@@ -309,7 +317,7 @@ textarea {
 }
 
 #form_button:hover {
-  background: #474544;
+  background: rgb(59, 131, 179);
   color: #f2f3eb;
 }
 

@@ -2,10 +2,7 @@
   font-family: "QuincyCF-Black";
   src: url(/font/QuincyCF-Black.otf) format("opentype");
 }
-@font-face {
-  font-family: "FontsFree-Net-Dream-Avenue";
-  src: url(/font/FontsFree-Net-Dream-Avenue.ttf) format("opentype");
-}
+
 /* Reset */
 * {
   box-sizing: border-box;
@@ -31,6 +28,10 @@ h1 {
   font-weight: 300;
   line-height: 1.2;
 }
+p {
+  font-size: 18px;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -98,7 +99,7 @@ h1 {
 .section-break-1 {
   background-color: transparent;
   border: 0;
-  border-top: 3px double;
+  border-top: rgb(59, 131, 179) 3px double;
   height: 3px;
   margin: 4rem auto;
   width: 60%;
