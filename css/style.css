@@ -70,7 +70,7 @@ h1 {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: static;
   z-index: 1;
   overflow: auto;
 }
