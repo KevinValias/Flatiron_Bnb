@@ -54,6 +54,9 @@ h1 {
   font-weight: 500;
   font-family: "QuincyCF-Black";
 }
+.dropdown {
+  position: fixed;
+}
 
 .navbar a:hover {
   color: black;
