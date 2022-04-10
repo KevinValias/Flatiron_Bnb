@@ -30,7 +30,8 @@ h1 {
 }
 h4 {
   font-family: "QuincyCF-Black";
-  font-size: 22px;
+  font-size: 28px;
+  color: rgb(103, 102, 102);
 }
 p {
   font-size: 18px;
@@ -168,5 +169,8 @@ p {
   }
   .section-break-1 {
     margin: 2rem auto;
+  }
+  h4 {
+    font-size: 22px;
   }
 }
