@@ -55,7 +55,7 @@ h1 {
   font-family: "QuincyCF-Black";
 }
 .dropdown {
-  position: fixed;
+  position: relative;
 }
 
 .navbar a:hover {
