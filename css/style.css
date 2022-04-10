@@ -148,6 +148,7 @@ h1 {
   .dropdown-content {
     display: none;
     position: absolute;
+    overflow: visible;
   }
 
   .dropdown-content a {
