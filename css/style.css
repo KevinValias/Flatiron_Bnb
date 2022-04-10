@@ -63,7 +63,20 @@ h1 {
   display: flex;
 }
 /* dropdown  */
-
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+}
 .navbar .logo {
   font-weight: 500;
 }
