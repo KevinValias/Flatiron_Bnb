@@ -63,17 +63,7 @@ h1 {
   display: flex;
 }
 /* dropdown  */
-/* .dropdown {
-  position: relative;
-  display: inline-block;
-}
 
-.dropdown-content {
-  display: none;
-  position: static;
-  z-index: 1;
-  overflow: auto;
-} */
 .navbar .logo {
   font-weight: 500;
 }
