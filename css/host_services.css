@@ -28,6 +28,10 @@ h1 {
   font-weight: 300;
   line-height: 1.2;
 }
+h4 {
+  font-family: "QuincyCF-Black";
+  font-size: 22px;
+}
 p {
   font-size: 18px;
 }
@@ -57,7 +61,7 @@ p {
 
 .navbar a:hover {
   color: black;
-  border-bottom: rgb(5, 5, 5) 1px solid;
+  border-bottom: rgb(59, 131, 179) 2px solid;
 }
 .navbar ul {
   display: flex;

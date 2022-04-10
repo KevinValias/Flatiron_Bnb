@@ -57,7 +57,7 @@ h1 {
 
 .navbar a:hover {
   color: black;
-  border-bottom: rgb(59, 131, 179) 1px solid;
+  border-bottom: rgb(59, 131, 179) 2px solid;
 }
 .navbar ul {
   display: flex;
