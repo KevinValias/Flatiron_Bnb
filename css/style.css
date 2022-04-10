@@ -121,7 +121,7 @@ h1 {
   .navbar {
     flex-direction: column;
     height: 135px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
   }
   .navbar a {
     padding: 0px 10px;

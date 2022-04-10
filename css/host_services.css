@@ -147,8 +147,8 @@ h1 {
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
-    height: 130px;
-    padding: none;
+    height: 135px;
+    padding-bottom: 30px;
   }
   .navbar a {
     padding: 0px 10px;
