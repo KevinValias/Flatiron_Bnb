@@ -92,8 +92,8 @@ p {
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
 }
-.showcase * {
-  z-index: 10;
+.showcase .content * {
+  z-index: 1;
 }
 .main-service-container {
   border: solid 3px #474544;
