@@ -49,6 +49,7 @@ p {
   position: fixed;
   top: 0px;
   padding: 0 30px;
+  z-index: 2;
 }
 
 .navbar a {
